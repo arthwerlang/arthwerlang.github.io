@@ -17,14 +17,14 @@ a:hover {
     color: #bc4e00;
 }
 .blue-line {
-    background: #070054;
+    background: #090070;
     position: fixed;
     bottom: 0;
     right: 0;
     left: 5%;
     top: 0;
     float: left;
-    width: 10%;
+    width: 8%;
     height: 100%;
     
 }
@@ -36,20 +36,33 @@ a:hover {
     left: 12.5%;
     top: 0;
     float: left;
-    width: 10%;
+    width: 8%;
     height: 100%;
     
 }
-.black-line {
-    background: #202020;
-    position: relative;
+.shadow-blue {
+    background: #040035;
+    position: fixed;
+    opacity: 50%;
     bottom: 0;
     right: 0;
-    left: 0;
-    top: 80%;
-    float: bottom;
-    width: 100%;
-    height: 10%;
+    left: 5%;
+    top: 0;
+    float: left;
+    width: 2%;
+    height: 100%;
     
 }
-
+.shadow-orange {
+    background: #542300;
+    opacity: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 12.5%;
+    top: 0;
+    float: left;
+    width: 2%;
+    height: 100%;
+    
+}
